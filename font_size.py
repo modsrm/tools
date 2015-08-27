@@ -42,10 +42,9 @@ def xrdb_merge():
 
 def main():
     new_size = parse_args().font_size
-
     replace_size(new_size)
-
     xrdb_merge()
 
 if __name__ == "__main__":
     main()
+
